@@ -2,5 +2,11 @@
   "name": "project-b",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "say-hello": "echo 'Hi I am project-b'"
+  },
+  "dependencies": {
+    "shared": "^1.0.0"
+  }
 }

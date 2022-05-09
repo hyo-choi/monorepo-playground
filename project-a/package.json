@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "say-hello": "echo 'Hi this is project-a'"
+  },
   "dependencies": {
     "shared": "^1.0.0"
   }

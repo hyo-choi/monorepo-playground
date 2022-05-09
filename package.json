@@ -6,6 +6,9 @@
   "author": "hyo-choi <hyochoi31@gmail.com>",
   "license": "MIT",
   "private": "true",
+  "scripts": {
+    "say": "yarn workspace project-a say-hello && yarn workspace project-b say-hello"
+  },
   "workspaces": [
     "project-a",
     "project-b",

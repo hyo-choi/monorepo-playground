@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:hyo-choi/monorepo-playground.git",
   "author": "hyo-choi <hyochoi31@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "project-a",
+    "project-b",
+    "shared"
+  ]
 }

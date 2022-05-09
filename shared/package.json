@@ -2,5 +2,8 @@
   "name": "shared",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "say-hello": "echo 'I cannot say hello!'"
+  }
 }

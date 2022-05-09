@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": "true",
   "scripts": {
-    "say": "yarn workspace project-a say-hello && yarn workspace project-b say-hello"
+    "say": "yarn workspace project-a say-hello && yarn workspace project-b say-hello",
+    "say-all": "yarn workspaces run say-hello"
   },
   "workspaces": [
     "project-a",

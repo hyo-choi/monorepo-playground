@@ -1,0 +1,8 @@
+{
+  "name": "monorepo-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hyo-choi/monorepo-playground.git",
+  "author": "hyo-choi <hyochoi31@gmail.com>",
+  "license": "MIT"
+}
